@@ -10,6 +10,6 @@ keycloak:
   realm: aristo-realm
   auth-server-url: http://localhost:8080/
   resource: aristo-client
-  public-client: true
+  public-client: false
   bearer-only: true
   credentials.secret: 5kvbSWrxdALAOtrkiLGCgv1TNLNeryx7
