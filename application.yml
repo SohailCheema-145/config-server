@@ -12,6 +12,6 @@ keycloak:
   resource: aristo-client
   public-client: false
   bearer-only: true
-  credentials.secret: E8IgeK9SXankR9CCRSH1k2p8ExlkvXvQ
+  credentials.secret: 4Gb89IYdSDTNBxmjiPO0PO6FOeOsc0ck
 aristo:
   keycloak.base.url: https://keycloak.local:8443/
