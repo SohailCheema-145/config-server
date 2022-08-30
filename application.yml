@@ -13,4 +13,4 @@ keycloak:
   public-client: false
   bearer-only: true
   credentials.secret: E8IgeK9SXankR9CCRSH1k2p8ExlkvXvQ
-  base.url: ${http://10.10.3.33:8080}
+  base.url: "http://10.10.3.33:8080"
