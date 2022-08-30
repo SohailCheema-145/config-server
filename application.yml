@@ -14,4 +14,4 @@ keycloak:
   bearer-only: true
   credentials.secret: E8IgeK9SXankR9CCRSH1k2p8ExlkvXvQ
 aristo:
-  keycloak.base.url: http://localhost:8080/
+  keycloak.base.url: https://keycloak.local:8443/
