@@ -8,10 +8,10 @@ eureka:
       hostname: localhost
 keycloak:
   realm: aristo-realm
-  auth-server-url: https://10.10.3.72:8443/
+  auth-server-url: https://awls.corp.wizlinx.com:8443/
   resource: aristo-client
   public-client: false
   bearer-only: true
   credentials.secret: E8IgeK9SXankR9CCRSH1k2p8ExlkvXvQ
 aristo:
-  keycloak.base.url: https://10.10.3.72:8443/
+  keycloak.base.url: https://awls.corp.wizlinx.com:8443/
