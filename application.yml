@@ -8,10 +8,10 @@ eureka:
       hostname: localhost
 keycloak:
   realm: aristo-realm
-  auth-server-url: https://aristo.gtech.com.tr:8080/
+  auth-server-url: http://aristo.gtech.com.tr:8080/
   resource: aristo-client
   public-client: false
   bearer-only: true
   credentials.secret: UoFIwh6cOOfpGIeNU13iOZi07JJwOrjr
 aristo:
-  keycloak.base.url: https://aristo.gtech.com.tr:8080/
+  keycloak.base.url: http://aristo.gtech.com.tr:8080/
