@@ -12,6 +12,6 @@ keycloak:
   resource: aristo-client
   public-client: false
   bearer-only: true
-  credentials.secret: E8IgeK9SXankR9CCRSH1k2p8ExlkvXvQ
+  credentials.secret: UoFIwh6cOOfpGIeNU13iOZi07JJwOrjr
 aristo:
   keycloak.base.url: https://aristo.gtech.com.tr:8080/
