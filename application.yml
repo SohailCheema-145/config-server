@@ -15,3 +15,5 @@ keycloak:
   credentials.secret: UoFIwh6cOOfpGIeNU13iOZi07JJwOrjr
 aristo:
   keycloak.base.url: http://aristo.gtech.com.tr:8080/
+  callbackUrl: https://aristo.gtech.com.tr:9191/api/checkouts/payment
+  redirectUrl: https://aristo.gtech.com.tr:4200/user-profile/satin-aldiklarim/redirectFromPayment
