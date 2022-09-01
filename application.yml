@@ -15,3 +15,5 @@ keycloak:
   credentials.secret: 5kvbSWrxdALAOtrkiLGCgv1TNLNeryx7
 aristo:
   keycloak.base.url: http://localhost:8080/
+  callbackUrl: http://awls.corp.wizlinx.com:9191/api/checkouts/payment
+  redirectUrl: http://10.10.3.207:4200/user-profile/satin-aldiklarim/redirectFromPayment
