@@ -14,4 +14,4 @@ keycloak:
   bearer-only: true
   credentials.secret: 5kvbSWrxdALAOtrkiLGCgv1TNLNeryx7
 aristo:
-  keycloak.base.url: "http://10.10.3.33:8080"
+  keycloak.base.url: http://localhost:8080/
