@@ -8,12 +8,12 @@ eureka:
       hostname: localhost
 keycloak:
   realm: aristo-realm
-  auth-server-url: https://10.0.1.125:8443/
+  auth-server-url: https://aristo.gtech.com.tr:8443/
   resource: aristo-client
   public-client: false
   bearer-only: true
   credentials.secret: UoFIwh6cOOfpGIeNU13iOZi07JJwOrjr
 aristo:
-  keycloak.base.url: https://10.0.1.125:8443/
+  keycloak.base.url: https://aristo.gtech.com.tr:8443/
   callbackUrl: http://aristo.gtech.com.tr:9191/api/checkouts/payment
   redirectUrl: http://aristo.gtech.com.tr:4200/user-profile/satin-aldiklarim/redirectFromPayment
