@@ -8,12 +8,12 @@ eureka:
       hostname: localhost
 keycloak:
   realm: aristo-realm
-  auth-server-url: https://awls.corp.wizlinx.com:8443/
+  auth-server-url: http://localhost:8080/
   resource: aristo-client
   public-client: false
   bearer-only: true
   credentials.secret: E8IgeK9SXankR9CCRSH1k2p8ExlkvXvQ
 aristo:
-  keycloak.base.url: https://awls.corp.wizlinx.com:8443/
-  callbackUrl: http://awls.corp.wizlinx.com:9191/api/checkouts/payment
+  keycloak.base.url: http://localhost:8080/
+  callbackUrl: http://10.10.3.69:9191/api/checkouts/payment
   redirectUrl: http://10.10.3.207:4200/user-profile/satin-aldiklarim/redirectFromPayment
