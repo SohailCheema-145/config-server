@@ -8,12 +8,12 @@ eureka:
       hostname: localhost
 keycloak:
   realm: aristo-realm
-  auth-server-url: http://10.10.3.69:8080/
+  auth-server-url: http://localhost:8080/
   resource: aristo-client
   public-client: false
   bearer-only: true
   credentials.secret: 4Gb89IYdSDTNBxmjiPO0PO6FOeOsc0ck
 aristo:
-  keycloak.base.url: http://10.10.3.69:8080/
+  keycloak.base.url: http://localhost:8080/
   callbackUrl: http://10.10.3.69:9191/api/checkouts/payment
   redirectUrl: http://10.10.3.207:4200/user-profile/satin-aldiklarim/redirectFromPayment
