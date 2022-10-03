@@ -16,4 +16,4 @@ keycloak:
 aristo:
   keycloak.base.url: http://localhost:8080/
   callbackUrl: http://10.10.3.72:9191/api/checkouts/payment
-  redirectUrl: http://10.10.3.79:4200/user-profile/satin-aldiklarim/redirectFromPayment
+  redirectUrl: http://10.10.3.79:8080/user-profile/satin-aldiklarim/redirectFromPayment
