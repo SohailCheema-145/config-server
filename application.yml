@@ -14,8 +14,8 @@ keycloak:
   bearer-only: true
   credentials.secret: k0pwcRaJ8LzRDSbfyfxDq0kaKMA5JkV6
 aristo:
-  keycloak-admin-user: admin
-  keycloak-admin-password: admin
+  keycloak-admin-user: aristo-user
+  keycloak-admin-password: admin123
   keycloak.base.url: http://localhost:8080/
   callbackUrl: http://10.10.3.72:9191/api/checkouts/payment
   redirectUrl: http://10.10.3.79:8080/user-profile/satin-aldiklarim/redirectFromPayment
