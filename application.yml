@@ -12,7 +12,7 @@ keycloak:
   resource: aristo-client
   public-client: false
   bearer-only: true
-  credentials.secret: 5kvbSWrxdALAOtrkiLGCgv1TNLNeryx7
+  credentials.secret: k0pwcRaJ8LzRDSbfyfxDq0kaKMA5JkV6
 aristo:
   keycloak.base.url: http://localhost:8080/
   callbackUrl: http://10.10.3.72:9191/api/checkouts/payment
